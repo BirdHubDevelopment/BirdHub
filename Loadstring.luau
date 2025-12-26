@@ -6,4 +6,6 @@
 ██████╔╝██║██║  ██║██████╔╝    ██║  ██║╚██████╔╝██████╔╝
 ╚═════╝ ╚═╝╚═╝  ╚═╝╚═════╝     ╚═╝  ╚═╝ ╚═════╝ ╚═════╝ 
 ]]
-loadstring(game:HttpGet("https://raw.githubusercontent.com/BirdHubDevelopment/BirdHub/main/games/" .. game.PlaceId .. ".lua"))()
+pcall(function()
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/BirdHubDevelopment/BirdHub/main/games/" .. game.PlaceId .. ".lua"))()
+end)
