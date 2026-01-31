@@ -1,3 +1,5 @@
+local versionagnawngangnawgnag = "1.0.1"
+print(versionagnawngangnawgnag)
 local a = {windowCount = 0, flags = {}}
 local b = {}
 setmetatable(
