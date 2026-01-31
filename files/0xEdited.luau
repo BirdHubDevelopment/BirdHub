@@ -408,6 +408,7 @@ function a:Window(w)
       	box.TextSize = 14
       	box.ClearTextOnFocus = false
         box.TextScaled = true
+        box.TextWrapped = true -- :kill myself
       
       	local corner = Instance.new("UICorner")
       	corner.CornerRadius = UDim.new(0,4)
