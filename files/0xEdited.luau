@@ -407,6 +407,7 @@ function a:Window(w)
       	box.PlaceholderColor3 = Color3.fromRGB(160,160,160)
       	box.TextSize = 14
       	box.ClearTextOnFocus = false
+        box.TextScaled = true
       
       	local corner = Instance.new("UICorner")
       	corner.CornerRadius = UDim.new(0,4)
